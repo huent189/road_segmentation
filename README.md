@@ -12,6 +12,6 @@ My pipeline consisted of 5 steps
 3. Lane line finding using sliding window
 4. Convert the bird view image in which found lane is drawn to normal view, then combine it to original image.
 # Shortcomings:
-Since this pipeline use threshold to detect lane line, it is a parameter-sensitive approach. To overcome it, we can try some deep learning models
+Since this pipeline use threshold to detect lane line, it is sensitive to environmental changes. We can overcome it by using deep learning based approach
 # Project result
 You can view the sample input and output in test folder
